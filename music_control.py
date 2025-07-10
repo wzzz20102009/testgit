@@ -2,7 +2,7 @@ from random import random
 
 import uiautomator2 as u2
 
-
+#ADD NOTES
 def start_douyin():
     d.app_start('com.ss.android.ugc.aweme', stop=False)
     d.swipe(400, 900, 400, 600, 0.05)
